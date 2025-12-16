@@ -1,0 +1,45 @@
+.social-media-div {
+  display: flex;
+  align-items: center;       /* 🔥 THIS fixes vertical alignment */
+  justify-content: center;
+  gap: 10px;
+  font-size: 2em;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FONT ICONS (GitHub, LinkedIn, Gmail etc.) */
+.icon-button i {
+  color: white;
+  background-color: inherit;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  width: 2.6rem;
+  display: flex;
+  align-items: center;       /* 🔥 */
+  justify-content: center;   /* 🔥 */
+}
+
+/* IMAGE ICON (LeetCode) */
+.icon-button img {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .social-media-div {
+    justify-content: center;
+  }
+}

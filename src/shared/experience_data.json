@@ -1,0 +1,58 @@
+{
+  "title": "Experience",
+  "subtitle": "Internship & Project Work",
+  "description": "Hands-on experience in frontend and full-stack development through internships and self-driven projects.",
+  "header_image_path": "experience.svg",
+  "sections": [
+    {
+      "title": "Internship",
+      "experiences": [
+        {
+          "title": "Frontend Developer Intern",
+          "company": "Freelance / Self Project",
+          "company_url": "",
+          "logo_path": "google_logo.png",
+          "duration": "Jan 2024 – Mar 2024",
+          "location": "Remote",
+          "description": "Built responsive web applications using React.js, optimized frontend performance, and integrated REST APIs.",
+          "color": "#0071C5"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "experiences": [
+        {
+          "title": "MediSync – Appointment Scheduler",
+          "company": "Personal Project",
+          "company_url": "https://medi-sync-wwy7.vercel.app/",
+          "logo_path": "google_logo.png",
+          "duration": "2024",
+          "location": "Remote",
+          "description": "MERN stack appointment booking system with JWT authentication and automated reminders.",
+          "color": "#0C9D58"
+        },
+        {
+          "title": "FoodSaver – AI Food Waste Reduction",
+          "company": "Personal Project",
+          "company_url": "https://food-saver-ecru.vercel.app/",
+          "logo_path": "google_logo.png",
+          "duration": "2024",
+          "location": "Remote",
+          "description": "Full-stack application with Firebase authentication and pantry tracking to reduce food waste.",
+          "color": "#FF9900"
+        },
+        {
+          "title": "Movie Recommendation System",
+          "company": "Academic Project",
+          "company_url": "https://movie-recommendation-sass.onrender.com/",
+          "logo_path": "google_logo.png",
+          "duration": "2023",
+          "location": "Remote",
+          "description": "Machine learning-based movie recommendation system with an interactive web interface.",
+          "color": "#4285F4"
+        }
+      ]
+    }
+  ]
+}
