@@ -250,7 +250,7 @@ const contactPageData = {
 const openSource = {
   githubUserName: "Varhneyprachi",
   githubConvertedToken: btoa(
-    "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"
+    ""
   ),
 };
 // =======================
